@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udemig Project</title>
+    <!-- Style Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="header">
+      <a href="index.html" class="header-logo"
+        ><i class="fa-solid fa-graduation-cap"></i>
+        <h1><span>Udemig</span> Education</h1></a
+      >
+
+      <!-- Navbar Start -->
+      <nav>
+        <ul class="navbar">
+          <li class="navbar-item">
+            <a href="#">Home</a>
+            <div class="border"></div>
+          </li>
+          <li class="navbar-item">
+            <a href="#">About</a>
+            <div class="border"></div>
+          </li>
+          <li class="navbar-item">
+            <a href="#">Contact</a>
+            <div class="border"></div>
+          </li>
+          <li class="navbar-item">
+            <a href="#">Services</a>
+            <div class="border"></div>
+          </li>
+        </ul>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Res Menu Start -->
+      <button class="res-menu-btn"><i class="fa-solid fa-bars"></i></button>
+
+      <ul class="res-menu">
+        <li class="res-menu-item"><a href="#">Home</a></li>
+        <li class="res-menu-item"><a href="#">About</a></li>
+        <li class="res-menu-item"><a href="#">Contact</a></li>
+        <li class="res-menu-item"><a href="#">Services</a></li>
+      </ul>
+      <!-- Res Menu End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main>
+      <div class="content">
+        <h1 class="title">Are you ready to discover</h1>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id rem odit
+          deserunt <span>voluptates repudiandae, optio inventore</span> minima
+          provident ex dicta?
+        </p>
+
+        <button>For More</button>
+      </div>
+
+      <section class="table-container">
+        <table class="table">
+          <tr>
+            <th>Month</th>
+            <th>Working Day</th>
+            <th>Wage</th>
+          </tr>
+
+          <tr>
+            <td>January</td>
+            <td>20</td>
+            <td>5000</td>
+          </tr>
+
+          <tr>
+            <td>February</td>
+            <td>22</td>
+            <td>5500</td>
+          </tr>
+
+          <tr>
+            <td>March</td>
+            <td>22</td>
+            <td>5500</td>
+          </tr>
+
+          <tr>
+            <td>April</td>
+            <td>22</td>
+            <td>5500</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <form class="form">
+        <div class="form-group">
+          <label for="name" class="form-label">Your Name:</label>
+          <input type="text" id="name" class="form-input" />
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="form-label">Your Email:</label>
+          <input type="email" id="email" class="form-input" />
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="form-label">Your Name:</label>
+          <textarea id="message" class="form-textarea" rows="5"></textarea>
+        </div>
+
+        <button class="form-btn">Send</button>
+      </form>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- JS -->
+    <script>
+      const resMenuBtn = document.querySelector(".res-menu-btn");
+      const resMenu = document.querySelector(".res-menu");
+
+      resMenuBtn.addEventListener("click", () =>
+        resMenu.classList.toggle("active"),
+      );
+    </script>
+
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/8f7b92a547.js"></script>
+  </body>
+</html>

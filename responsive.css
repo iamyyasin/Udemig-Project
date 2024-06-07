@@ -1,0 +1,97 @@
+/* Max Width 768px */
+@media (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+    padding: 20px 50px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .res-menu-btn {
+    display: block;
+  }
+
+  .res-menu {
+    display: block;
+  }
+
+  .content {
+    width: 80%;
+  }
+
+  .content p,
+  .content button {
+    font-size: 25px;
+  }
+
+  th,
+  td {
+    font-size: 25px;
+  }
+
+  .form-label,
+  .form-input,
+  .form-textarea,
+  .form-btn {
+    font-size: 25px;
+  }
+}
+
+/* Max Width 428px */
+@media (max-width: 428px) {
+  .header {
+    padding: 20px 10px;
+  }
+
+  .header-logo {
+    font-size: 10px;
+  }
+
+  .header-logo i {
+    font-size: 25px;
+  }
+
+  .res-menu-btn {
+    font-size: 30px;
+  }
+
+  .res-menu-item a {
+    font-size: 18px;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .content .title {
+    font-size: 25px;
+  }
+
+  .content p,
+  .content button {
+    font-size: 18px;
+  }
+
+  .table-container {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  th,
+  td {
+    font-size: 17px;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  .form-label,
+  .form-input,
+  .form-textarea,
+  .form-btn {
+    font-size: 18px;
+  }
+}
